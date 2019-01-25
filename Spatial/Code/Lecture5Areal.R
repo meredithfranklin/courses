@@ -86,8 +86,8 @@ plot(nc)
 plot(sids_nb_rook,coordinates(nc), add=TRUE,col="blue")
 
 # see number of neighbours
-summary(card(sids_nb_queen))
 card(sids_nb_rook)
+summary(card(sids_nb_queen))
 
 diffs<-diffnb(sids_nb_queen, sids_nb_rook)
 
@@ -131,11 +131,12 @@ summary(ndist)
 # d1=smallest distance, usually 0, d2=distance you want to go from the point
 median_dist_kn1<-median(ndist)
 sids_dist1<-dnearneigh(coordinates(nc), d1=0, d2=median_dist_kn1)
-sids_dist1<-dnearneigh(coordinates(nc), d1=0, d2=0.43)
+sids_dist1b<-dnearneigh(coordinates(nc), d1=0, d2=0.43)
 
 
 plot(nc)
-plot(sids.dist1, coordinates(nc), add=T,col="blue")
+plot(sids_dist1, coordinates(nc), add=T,col="blue")
+plot(sids_dist1b, coordinates(nc), add=T,col="blue")
 
 
 # 0.75 of maximum distance
@@ -181,13 +182,15 @@ sids_dist1_c$weights
 
 # For next week (Lecture 6)
 # Moran's I
-moranSIDS<-moran.test(nc$SID74,sids_kn2_w)
+moranSIDS<-moran.test(nc$SID74/nc$BIR74,sids_kn2_w)
+moranSIDS
 
 moranSIDS2<-moran.test(nc$SID74,sids_dist1_w)
 
 # Geary's c
 
 gearySIDS<-geary.test(nc$SID79,sids_kn2_w)
+gearySIDS
 
 gearySIDS2<-geary.test(nc$SID79,sids_dist1_w)
 
