@@ -11,11 +11,13 @@ Course material for USC PM522b **Statistical Inference** and USC PM569 **Spatial
   * Slides 7: ANOVA and linear regression
   
 ## **Spatial Statistics**:
-  * Introduction
+  * Introduction to spatial data
   * Geostatistics 1
   * Geostatistics 2
   * Geostatistics 3
   * Areal 1
   * Areal 2
+  * Areal 3
   * Point pattern 1
   * Point pattern 2
+  * Point pattern 3
