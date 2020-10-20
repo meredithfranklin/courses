@@ -24,4 +24,4 @@ Course material for USC PM522b **Statistical Inference**, USC PM569 **Spatial St
   * Point pattern 3: Markov modeling and inhibition processes
 
 ## **Data Science**:
-  * Under development
+  * Check out the course [here](https://elastic-khorana-70231e.netlify.app/)
