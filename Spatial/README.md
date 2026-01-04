@@ -1,7 +1,7 @@
-# Courses
+# Spatial Data Analysis
+
 Course material for University of Toronto STA465/STA2016/ENV1112 **Spatial Data Analysis, Fall 2025** 
-  
-## **Spatial Statistics**:
+
   * Introduction: spatial data and spatial data types
   * Geostatistics 1: spatial semivariance and covariance
   * Geostatistics 2: fitting semivariogram and covariance functions
@@ -12,6 +12,3 @@ Course material for University of Toronto STA465/STA2016/ENV1112 **Spatial Data 
   * Point pattern 1: Poisson processes and complete spatial randomness
   * Point pattern 2: Point process modeling and cluster detection
   * Point pattern 3: Markov modeling and inhibition processes
-
-## **Data Science**:
-  * Check out the course [here](https://elastic-khorana-70231e.netlify.app/)
